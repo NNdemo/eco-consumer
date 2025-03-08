@@ -1,0 +1,36 @@
+{
+  "name": "eco-consumer",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Sustainable living app that helps users track their carbon footprint",
+  "author": "EcoTech Team",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "chart.js": "^4.4.8",
+    "vue": "^3.5.13",
+    "vue-chartjs": "^5.3.2",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "terser": "^5.39.0",
+    "vite": "^6.2.1"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [
+    "sustainability",
+    "carbon-footprint",
+    "eco-friendly",
+    "vue",
+    "mvp"
+  ]
+}
